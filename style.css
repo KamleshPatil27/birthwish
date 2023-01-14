@@ -25,7 +25,7 @@
 }
 
 div { /* image is 460px x 460px */
-  width:400px;
+  width:300px;
   height:10px; /* 50 divisions */
   background-image: url(Sonu.jpeg);
   background-size: cover;
@@ -232,7 +232,7 @@ body {
 
 .container .card .image {
   position: relative;
-  width: 100%;
+  width: 50%;
   height: 100%;
   background-size: cover;
   transform: translate(10px, 10px);
