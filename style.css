@@ -333,3 +333,15 @@ h1{
   -webkit-text-stroke-color: transparent;
   -webkit-text-stroke-width: var(--stroke-width);
 }
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+ .section1, .section2, .section3 {
+   width: 50%;
+   height: 320px;
+ }
+}
+@media only screen and (min-width: 769px) {
+ .section1, .section2, .section3 {
+   width: 33.3%;
+   height: 350px;
+ }
+}
